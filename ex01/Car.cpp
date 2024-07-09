@@ -30,19 +30,19 @@ Car &Car::operator=(const Car &obj)
 
 void Car::setMake(std::size_t newMake)
 {
-    std::cout << "** [Car] setting value to [make] **" << std::endl;
+    std::cout << "** [Car] setting value : [make] **" << std::endl;
     this->make = newMake;
 }
 
 void Car::setModel(std::string newModel)
 {
-    std::cout << "** [Car] setting value to [model] **" << std::endl;
+    std::cout << "** [Car] setting value : [model] **" << std::endl;
     this->model = newModel;
 }
 
 void Car::setYear(std::size_t newYear)
 {
-    std::cout << "** [Car] setting value to [year] **" << std::endl;
+    std::cout << "** [Car] setting value : [year] **" << std::endl;
     this->year = newYear;
 }
 

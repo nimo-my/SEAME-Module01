@@ -29,11 +29,13 @@ Car &Car::operator=(const Car &obj)
 
 void Car::setName(std::string newName)
 {
+    std::cout << "** Car setting name to [" << newName << "] **" << std::endl;
     this->name = newName;
 }
 
 void Car::setSpeed(std::size_t newSpeed)
 {
+    std::cout << "** Car setting speed to [" << newSpeed << "] **" << std::endl;
     this->speed = newSpeed;
 }
 
